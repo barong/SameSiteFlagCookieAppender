@@ -1,4 +1,4 @@
-package com.barong.web.tomcat.util.http.http;
+package com.barong.web.tomcat.util.http;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

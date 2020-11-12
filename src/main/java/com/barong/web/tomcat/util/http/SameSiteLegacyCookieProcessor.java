@@ -1,4 +1,4 @@
-package com.barong.web.tomcat.util.http.http;
+package com.barong.web.tomcat.util.http;
 
 
 import java.nio.charset.Charset;

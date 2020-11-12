@@ -1,4 +1,4 @@
-package com.barong.web.tomcat.util.http.http;
+package com.barong.web.tomcat.util.http;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -9,16 +9,16 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.dropsUnrecognizedSameSiteCookies;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.hasWebKitSameSiteBug;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isChromiumBased;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isChromiumVersionAtLeast;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isIosVersion;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isMacEmbeddedBrowser;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isMacosxVersion;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isSafari;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isUcBrowser;
-import static com.barong.web.tomcat.util.http.http.SameSiteCookieAppender.isUcBrowserVersionAtLeast;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.dropsUnrecognizedSameSiteCookies;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.hasWebKitSameSiteBug;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isChromiumBased;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isChromiumVersionAtLeast;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isIosVersion;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isMacEmbeddedBrowser;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isMacosxVersion;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isSafari;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isUcBrowser;
+import static com.barong.web.tomcat.util.http.SameSiteCookieAppender.isUcBrowserVersionAtLeast;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.when;
